@@ -9,6 +9,7 @@ from collections import Counter
 nltk.download('brown')
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('punkt_tab') # Added this line
 
 # Q1: Load and Tokenize Text
 category = 'news'  # You can change to other categories
